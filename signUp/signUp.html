@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script src="https://kit.fontawesome.com/d8225ae48f.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div><img class="loginImg" src="https://i.pinimg.com/564x/f2/1d/15/f21d1537ba882d1d3dc672e583150afc.jpg" alt=""></div>
+    <div class="create_account">        
+        <div><h1>Create Account</h1></div>
+        <div class="residence">
+            <h5>Country of residence</h5>
+            <select name="countrys" id="" type="text">
+                <option value="Korea">Korea</option>
+                <option value="United States">U.S.</option>
+                <option value="China">China</option>
+                <option value="France">Frence</option>
+                <option value="France">Malta</option>
+
+            </select>            
+        </div>
+        <div class="user_info">
+            <div class="sign_up_method">
+                <a href="" class="Email"><h3>Email</h3></a>
+                <a href="" class="mobile_number"><h3>Mobile number</h3></a>
+            </div>
+            <div class="email">
+                <input type="text" placeholder="Email" id="username">
+                <div>
+                    <div class="failure_message wrong_id hide"><h6>The account you entered (mail or phone number) is in the wrong format</h6></div>
+                    <div class="failure_message none_id hide"><h6>Enter Email address</h6></div>
+                </div>
+
+            </div>
+            <div class="pw">
+                <input type="password"placeholder="Set Password" id="pw">
+                <div>
+                    <div class="failure_message wrong_pw hide"><h6>8 to 32 digits, at least 1 number, 1 uppercase letter, and 1Special characters</h6></div>
+                    <div class="failure_message none_pw hide"><h6>Please enter password</h6></div>
+                </div>    
+                <div class="pw_requires hide">
+                    <div class="requires"><i class="hide fa-regular fa-circle-check digitsK "></i><i class="fa-regular fa-circle digitsC"></i><h6>8 to 32 digits</h6></div>
+                    <div class="requires"><i class="hide fa-regular fa-circle-check numK "></i><i class="fa-regular fa-circle numC"></i><h6>At least 1 number</h6></div>
+                    <div class="requires"><i class="hide fa-regular fa-circle-check uppercaseK "></i><i class="fa-regular fa-circle uppercaseC" ></i><h6>At least 1 uppercase letter</h6></div>
+                    <div class="requires"><i class="hide fa-regular fa-circle-check specialK "></i><i class="fa-regular fa-circle specialC"></i><h6>At least 1 special characters</h6></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="terms_of_use">
+                <input type="checkbox" name="" value="">
+                <h6>I agree to the</h6>
+                <a href=""><h6>&#60;Terms of Use&#62;</h6></a>
+            </div>
+            <div class="buttons">
+
+                <button class="sign_up_button"><h3>Sign Up</h3></button>
+                <h5>or sign up with</h5>
+                <div class="sign_up_with">
+                    <button>
+                        <div class="google">
+                            <i class="fa-brands fa-google"></i>
+                            <h3>Google</h3>
+                        </div>
+                    </button>
+                    <button>
+                        <div class="apple">
+                            <i class="fa-brands fa-apple"></i>
+                            <h3>Apple</h3>
+                        </div>
+                    </button>
+                </div>
+                <div class="login">
+                    <h6>Already have an account?</h6>
+                    <a href="#"><h3  class="login_button">Log in</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="signUp.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</body>
+</html>
